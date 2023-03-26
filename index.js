@@ -110,8 +110,6 @@ client.connect(err => {
             })
     });
 
-
-
     app.post('/bookingOrderList', (req, res) => {
         const newProduct = req.body;
         console.log('add new ', newProduct)
